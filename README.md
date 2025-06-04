@@ -10,26 +10,29 @@ Day 1:
 
  Use the commands to check what the email and username is 
  > git config user.name 
+ >
  > git config user.email 
 
 To set the user.name and user.email run the same command but append the values you want surrounded with quotes 
- > git config user.name "<NAME>"
+ > git config user.name "<NAME>" 
+ >
  > git config user.email "<EMAIL>"
 
 You have 2 options to use SSH keys to handle multiple Github accounts or HTTPS 
 I used SSH 
 
 1. Generate a new SSH key for each account with the following command 
-> ssh-keygen -t ed25519 -C "your-other-email@example.com" -f ~/.ssh/id_ed25519_other
-|Part | Meaning|
-| ---| ---|
-|ssh-keygen| The command to generate a new SSH key pair |
-|-t ed25519| Specifies the key type (Ed25519 is recommended for GitHub)|
+> ssh-keygen -t ed25519 -C 'your-other-email@example.com' -f ~/.ssh/id_ed25519_other
+|Part | Meaning |
+| --- | --- |
+|ssh-keygen | The command to generate a new SSH key pair |
+|-t ed25519 | Specifies the key type (Ed25519 is recommended for GitHub)|
 |-C "your-other-email@example.com" | A comment (optional), often used for identification | 
 |-f ~/.ssh/id_ed25519_other | File path where the key will be saved (both public and private parts will be generated when the command is ran)|
 
 2. Add keys to the SSH Agent 
 > eval "$(ssh-agent -s)"
+>
 > ssh-add ~/.ssh/id_ed25519_other
 
 eval "$(ssh-agent -s)"- is a background program that starts the SSH agent 
@@ -55,10 +58,11 @@ Host github-home
 Also key thing to not is Host is like the alias name so 
 when cloning use this after the @ 
 > i.e git clone git@<host>:<username>/repo.git
+>
 `git remote add origin git@github-home:techwithpetra/100DOC_Journal.git`
 
 If you need to remove a remote git repository simply run the command:
-> git remote remove origin 
+ `git remote remove origin` 
 
 4. Setup a new SSH key in your Github Account 
 
