@@ -2,8 +2,11 @@
 # Day 1: 4th June
 
  :white_check_mark: Set up a new github account 
+
  :white_check_mark: Set up a dev community account 
+
  :white_check_mark: Learnt about switching between 2 different dev accounts 
+ 
  :white_check_mark: Git and SSH learning
 
  Use the commands to check what the email and username is 
