@@ -1,10 +1,10 @@
 
 # Day 1: 4th June
 
- - Set up a new github account 
- - Set up a dev community account 
- - Learnt about switching between 2 different dev accounts 
- - Git and SSH learning
+ :tick Set up a new github account 
+ :tick Set up a dev community account 
+ :tick Learnt about switching between 2 different dev accounts 
+ :tick Git and SSH learning
 
  Use the commands to check what the email and username is 
  > git config user.name 
@@ -12,9 +12,9 @@
  > git config user.email 
 
 To set the user.name and user.email run the same command but append the values you want surrounded with quotes 
- > git config user.name "<NAME>" 
+ > git config user.name "<\NAME>" 
  >
- > git config user.email "<EMAIL>"
+ > git config user.email "<\EMAIL>"
 
 You have 2 options to use SSH keys to handle multiple Github accounts or HTTPS 
 I used SSH 
