@@ -79,4 +79,5 @@ Alternatively you can use HTTPS, this will prompt for a username/ password (PAT)
 Also learnt that what the terminal stores your git credentials differs from what VS code stores. You must intentionally align them else you will be signed in as one account in vs code source control and another in the terminal. This is what happened to me i couldn't push to the repo on vs code but could on the terminal. 
 
 `ssh -T git@github.com` - This is used to check who you're authenticated as
+
 `git remote set-url origin git@github.com:techwithpetra/repo-name.git` - sets who is authenticated in a particular repo 
