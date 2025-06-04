@@ -75,3 +75,5 @@ Settings -> SSH and GPG keys -> New SSH key
 Alternatively you can use HTTPS, this will prompt for a username/ password (PAT) to store them per repository 
 
 `git config credential.helper store` 
+
+Also learnt that what the terminal stores your git credentials differs from what VS code stores. You must intentionally align them else you will be signed in as one account in vs code source control and another in the terminal. This is what happened to me i couldn't push to the repo on vs code but could on the terminal. 
