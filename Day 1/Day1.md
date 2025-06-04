@@ -24,6 +24,7 @@ I used SSH
 
 1. Generate a new SSH key for each account with the following command 
 > ssh-keygen -t ed25519 -C 'your-other-email@example.com' -f ~/.ssh/id_ed25519_other
+
 |Part | Meaning |
 | --- | --- |
 |ssh-keygen | The command to generate a new SSH key pair |
@@ -39,7 +40,7 @@ I used SSH
 eval "$(ssh-agent -s)"- is a background program that starts the SSH agent 
 - This keeps your private keys loaded in memory 
 - This also allows you to authenticates securely to services without having to retype your passphrase 
-- It will output a message like this: Agent pid 12345 
+- It will output a message like this: `Agent pid 12345 `
 ssh-add ~/.ssh/id_ed25519_other 
 - This will add your private key stored in the file id_ed25519_other 
 - Its matched to a publike key you've added to your Github account 
