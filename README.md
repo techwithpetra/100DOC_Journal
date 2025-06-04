@@ -4,4 +4,6 @@
 
 Journal to document 100 doc journey 
 
+Day 1: Setup Github and Dev Accounts and learn about ssh and refresh memory on git intitialisation commands
+
 
