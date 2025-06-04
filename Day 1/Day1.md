@@ -29,7 +29,7 @@ I used SSH
 | --- | --- |
 |ssh-keygen | The command to generate a new SSH key pair |
 |-t ed25519 | Specifies the key type (Ed25519 is recommended for GitHub)|
-|-C "your-other-email@example.com" | A comment (optional), often used for identification | 
+|-C 'your-other-email@example.com' | A comment (optional), often used for identification | 
 |-f ~/.ssh/id_ed25519_other | File path where the key will be saved (both public and private parts will be generated when the command is ran)|
 
 2. Add keys to the SSH Agent 
