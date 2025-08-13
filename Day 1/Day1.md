@@ -15,9 +15,9 @@
  > git config user.email 
 
 To set the user.name and user.email run the same command but append the values you want surrounded with quotes 
- > git config user.name "<NAME>" 
+ > git config user.name \<NAME>
  >
- > git config user.email "<EMAIL>"
+ > git config user.email \<EMAIL>
 
 You have 2 options to use SSH keys to handle multiple Github accounts or HTTPS 
 I used SSH 
