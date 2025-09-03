@@ -19,4 +19,5 @@ Day 2: 2/09/2025
 
 Day 3: 3/09/2025
 - Continued on web development courses
+- Learnt about nameservers
 
