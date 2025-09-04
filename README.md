@@ -26,7 +26,7 @@ Day 3: 3/09/2025
 - Cloudflare on its SSL services has modes of encryption i initially chose full strict mode but the handshake failed due to their being no SSL cert
 - However they have a flexible mode where cloudflare handles encryption of webtraffic from web browsers to its servers but onwards its not encrypted. The advantage of this is that it encrypts messages to its servers so it provides some level of protection and also is a way to get around the web browser showing that the website is not encrypted. However the disadvantage is its not e2e encrypted from the cloudflare servers to where your website is being hosted. That part the web traffic is still http than https. 
 
-Day 4: 
+Day 4: 4/09/2025
 - Created landing page for Praying promise
 - Continued on web development course 
 
