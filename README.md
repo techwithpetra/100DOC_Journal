@@ -30,3 +30,5 @@ Day 4: 4/09/2025
 - Created landing page for Praying promise
 - Continued on web development course 
 
+Day 5: 5/09/2025 
+- I recapped what i had learnt on the web development course
