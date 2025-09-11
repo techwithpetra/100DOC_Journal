@@ -35,4 +35,5 @@ Day 5: 5/09/2025
 
 Day 6 -10: Had a rest period - back at it now
 
-Day 11: Continued on web development course and started on personal project praying promises. 
+Day 11: 11/09/2025
+- Continued on web development course and started on personal project praying promises. 
