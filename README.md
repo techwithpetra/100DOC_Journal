@@ -32,3 +32,7 @@ Day 4: 4/09/2025
 
 Day 5: 5/09/2025 
 - I recapped what i had learnt on the web development course
+
+Day 6 -10: Had a rest period - back at it now
+
+Day 11: Continued on web development course and started on personal project praying promises. 
