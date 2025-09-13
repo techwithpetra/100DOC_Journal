@@ -37,3 +37,7 @@ Day 6 -10: Had a rest period - back at it now
 
 Day 11: 11/09/2025
 - Continued on web development course and started on personal project praying promises. 
+
+Day 12: 12/09/2025
+- continued workingnon web course filling in knowledge gaps 
+- reviewed praying with promises web app
