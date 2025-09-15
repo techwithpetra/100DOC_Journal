@@ -41,3 +41,9 @@ Day 11: 11/09/2025
 Day 12: 12/09/2025
 - continued workingnon web course filling in knowledge gaps 
 - reviewed praying with promises web app
+
+Day 13-14: 
+- Weekend away 
+
+Day 15: 
+- Learning cloudformation for work 
